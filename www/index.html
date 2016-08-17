@@ -40,7 +40,7 @@
 	<link href="css/agency.css" rel="stylesheet">
 
 	<!-- Custom Fonts -->
-	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<script src="https://use.fontawesome.com/b12eac7a90.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet"
 	      type="text/css">
 	<link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet'
@@ -81,6 +81,7 @@
 <!-- Navigation -->
 <nav class="navbar navbar-default navbar-fixed-top">
 	<div class="container">
+
 		<!-- Brand and toggle get grouped for better mobile display -->
 		<div class="navbar-header page-scroll">
 			<button type="button" class="navbar-toggle" data-toggle="collapse"
@@ -104,6 +105,9 @@
 				</li>
 				<li>
 					<a class="page-scroll" href="blog/">Blog</a>
+				</li>
+				<li>
+					<a class="page-scroll" href="#events">Events</a>
 				</li>
 				<li>
 					<a class="page-scroll" href="#portfolio">Portfolio</a>
@@ -132,7 +136,7 @@
 </header>
 
 <!-- Services Section -->
-<section id="services">
+<section id="services" class="bg-light-gray">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12 text-center">
@@ -161,14 +165,13 @@
                     </span>
 				<h4 class="service-heading">Scrum</h4>
 
-				<p class="text-muted">For more than 3 years I've been working as a Scrum Development
+				<p class="text-muted">For more than 4 years I've been working as a Scrum Development
 					Team member. I've worked with Scrum in small - 1 team - projects, but also in
 					SAFe environments up to 17 team on one project. I've worked as Scrum Master and
 					Product Owner, I am a proud owner of the <a
 							href="https://www.scrum.org/Assessments/Professional-Scrum-Product-Owner-Assessments"
-							target="_blank">PSPO I</a> certificate and inches away of the <a
-							href="https://www.scrum.org/Assessments/Professional-Scrum-Master-Assessments"
-							target="_blank">PSM I</a> certificate.</p>
+							target="_blank">PSPO I</a> certificate. Also I've been involved in transforming
+					organisation to the agile way of working, with success.</p>
 			</div>
 			<div class="col-md-4">
                     <span class="fa-stack fa-4x">
@@ -177,16 +180,16 @@
                     </span>
 				<h4 class="service-heading">Consultancy</h4>
 
-				<p class="text-muted">I've been working as a Software Consultant for over 4 years. I
+				<p class="text-muted">I've been working as a Software Consultant for over 5 years. I
 					am proficient with many programming languages, including (but not limited to);
-					Java, Kotlin, C#, C++, C, Javascript, Objective C and Swift. I share my
-					knowledge during presentations at several conferences.</p>
+					Java, Kotlin, Javascript, HTML/CSS, C#, C++, C, Objective C and Swift. I share my
+					knowledge during <a href="#events">presentations</a> at several conferences.</p>
 			</div>
 		</div>
 	</div>
 </section>
 
-<section id="blog" class="bg-light-gray">
+<section id="blog">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12 text-center">
@@ -214,6 +217,43 @@
 							craft, improving way of working with Agile and general ideas.</p>
 					</a>
 				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- Events Grid Section -->
+<section id="events" class="bg-light-gray">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 text-center">
+				<h2 class="section-heading">Events</h2>
+
+				<h3 class="section-subheading text-muted">Conferences, meetups and other live events.</h3>
+			</div>
+		</div>
+		<div class="row text-center">
+			<div class="col-md-6">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-hourglass-start fa-stack-1x fa-inverse"></i>
+                    </span>
+				<h4 class="service-heading">Upcoming public talks</h4>
+
+				<p class="text-muted"><strong>Mockito vs JMockit, battle of the mocking frameworks</strong><br>
+					Big Android BBQ - August 15, 2016</p>
+			</div>
+			<div class="col-md-6">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-hourglass-end fa-stack-1x fa-inverse"></i>
+                    </span>
+				<h4 class="service-heading">Recent public talks</h4>
+
+				<p class="text-muted"><strong>How to convince your colleagues to switch to Kotlin</strong><br>
+					Dutch Android User Group Meetup - April 25, 2016</p>
+				<p class="text-muted"><strong>Introduction into the math behind Augmented Reality</strong><br>
+					Droidcon NL - November 23, 2011</p>
 			</div>
 		</div>
 	</div>
@@ -566,8 +606,8 @@
 	</div>
 </section>
 
-<!-- Clients Aside -->
-<aside class="clients">
+<!-- Clients Section -->
+<section id="clients">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-4 col-sm-6">
@@ -595,7 +635,7 @@
 			</div>
 		</div>
 	</div>
-</aside>
+</section>
 
 <!-- Contact Section -->
 <section id="contact">
